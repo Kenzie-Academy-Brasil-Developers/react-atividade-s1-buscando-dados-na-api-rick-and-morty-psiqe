@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Chakra+Petch:wght@300&family=Spline+Sans+Mono:wght@500&display=swap');
+.cont--card{
+  border: solid white;
+  border-width: 1px;
+  width: 230px;
+  height: 450px;
+}
+.name--char{
+  width: auto;
+  height: 30px;
+  margin: 0;
+  background: black;
+}
+.img--char{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.details--char{
+  height: 223px;
+  display: grid;
+  grid-template-rows: 7% 20% 15% 58% ;
+}
+.p--created{
+  height: max-content;
+  background: black;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 11px;
+  margin: 0;
+}
+.cont--status{
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: 'Cairo', sans-serif;
+  color: black;
+  background-color: rgb(197, 193, 187);
+}
+.cont--origin{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  justify-content: space-around;
+  font-size: 10px;
+  font-family: 'Cairo', sans-serif;
+  color: black;
+  background-color: rgb(197, 193, 187);
+}
+.cont--localization{
+  display: grid;
+  grid-template-rows: 25% 75%;
+}
+.p--localization {
+  background-color: grey;
+  margin: 0;
+}
+.localization{
+  background-color: white;
+  color: black;
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 20px;
+}
